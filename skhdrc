@@ -1,0 +1,27 @@
+# open iTerm, sublime, chrome, termius, messages
+cmd - return : open -a iTerm
+cmd + shift - c : open -a chrome
+cmd + shift - s : open -a sublime
+cmd + shift - t : open -a Termius
+cmd + shift - m : open -a Messages
+
+# focus window
+alt - left : yabai -m window --focus west
+alt - down : yabai -m window --focus south
+alt - up : yabai -m window --focus north
+alt - right : yabai -m window --focus east
+
+# move window
+shift + cmd - left : yabai -m window --warp west
+shift + cmd - down : yabai -m window --warp south
+shift + cmd - up : yabai -m window --warp north
+shift + cmd - right : yabai -m window --warp east
+
+# swap window
+shift + alt - left : yabai -m window --swap west
+shift + alt - down : yabai -m window --swap south
+shift + alt - up : yabai -m window --swap north
+shift + alt - right : yabai -m window --swap east
+
+# toggle window fullscreen zoom
+alt - f : yabai -m window --toggle zoom-fullscreen
